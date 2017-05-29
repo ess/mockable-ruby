@@ -67,7 +67,7 @@ module Factory
   end
 
   def self.generator
-    Mockable.mocked? ? Fake : Real).new
+    (Mockable.mocked? ? Fake : Real).new
   end
 end
 ```
