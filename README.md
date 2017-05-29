@@ -96,3 +96,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## History ##
 
+* 0.1.0 - Initial port from Go
